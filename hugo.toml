@@ -1,4 +1,4 @@
-baseURL = 'https://blog.mirrir.net/'
+baseURL = 'https://mirrir.net/'
 languageCode = 'en-us'
 title = 'Mirrired Bits'
 theme = 'archie'
