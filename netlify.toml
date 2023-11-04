@@ -1,5 +1,5 @@
 [build]
-command = "hugo"
+command = "git submodule init && git submodule update && hugo"
 publish = "public"
 
 [build.environment]
