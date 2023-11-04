@@ -1,0 +1,45 @@
+baseURL = 'https://blog.mirrir.net/'
+languageCode = 'en-us'
+title = 'Mirrired Bits'
+theme = 'archie'
+copyright = "© Mirrir"
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+paginate = 5
+
+[params]
+mode = "auto"
+useCDN = false
+subtitle = "writings on the work"
+mathjax = true
+katex = true
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/mirrir0"
+
+
+# Main menu Items
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "blog posts"
+url = "/blog"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
